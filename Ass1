@@ -1,0 +1,6 @@
+n=input().split()
+a=[]
+for i in n:
+    a.append(int(i))
+res=[sorted(a).index(x)+1 for x in a] 
+print(res)
