@@ -1,0 +1,7 @@
+str='aditya degree'
+k=str.lstrip("a").rstrip("e")
+print(k)
+
+
+
+ditya degre
